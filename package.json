@@ -1,0 +1,27 @@
+{
+  "name": "vm-leaflet-icons",
+  "version": "0.0.1",
+  "description": "VM icons for leaflet.js",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flosse/vm-leaflet-icons.git"
+  },
+  "keywords": [
+    "leaflet",
+    "icon",
+    "vm"
+  ],
+  "author": "Markus Kohlhase",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/flosse/vm-leaflet-icons/issues"
+  },
+  "homepage": "https://github.com/flosse/vm-leaflet-icons#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "scripts": {
+    "prepublish": "coffee -c -o lib/ src/"
+   }
+}
