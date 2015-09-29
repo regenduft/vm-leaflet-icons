@@ -20,5 +20,5 @@ module.exports =
     iconUrl       : require './images/event-plain.png'
     iconRetinaUrl : require './images/event-plain-2x.png'
   unknown       : new VMIcon
-    iconUrl       : require './images/event-unknown.png'
-    iconRetinaUrl : require './images/event-unknown-2x.png'
+    iconUrl       : require './images/unknown-plain.png'
+    iconRetinaUrl : require './images/unknown-plain-2x.png'
