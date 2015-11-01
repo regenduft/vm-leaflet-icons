@@ -137,9 +137,15 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <filter id="drop-shadow">
+		<feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="5"/>
+		<feOffset dx="2" dy="2" in="blur" result="shadow"/>
+        <feBlend in = "SourceGraphic" in2 = "shadow" mode = "normal"/>
+  </filter>
   <g
      transform="translate(-185.96457,-115.96784)"
-     id="layer1">
+     id="layer1"
+     filter = "url(#drop-shadow)">
     <path
        style="fill:url(#radialGradient4747);fill-opacity:1"
        id="path16"
